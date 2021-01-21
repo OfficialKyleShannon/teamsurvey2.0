@@ -1,0 +1,110 @@
+body {
+
+ background-image: linear-gradient(silver, aquamarine);
+
+}
+
+#header {
+
+ text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: bold;
+ text-decoration: underline;
+
+}
+
+#intro {
+
+ text-align: center;
+ font-family: Helvetica, Arial, sans-serif;
+ font-weight: 500;
+
+}
+
+.styledeets {
+
+ text-decoration: underline;
+
+}
+
+#info {
+
+ text-align: center;
+ font-family: Helvetica, Arial, sans-serif;
+ font-weight: bold;
+ display: block;
+
+}
+
+#survey {
+
+ text-align: center;
+ font-family: Helvetica, Arial, sans-serif;
+ 
+}
+
+.stylequestions {
+
+ font-family: Helvetica, Arial, sans-serif;
+ text-decoration: underline;
+}
+
+#feedback {
+
+ text-align: center;
+ font-family: Helvetica, Arial, sans-serif;
+ text-decoration: underline;
+
+}
+
+#textback {
+
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+button {
+
+  background-color: black;
+  border: none;
+  border-radius: 12px;
+  color: aquamarine;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.5s;
+  cursor: pointer;
+  outline: none;
+
+}
+
+button:active {
+
+ vertical-align: top;
+ padding: 8px 13px 6px;
+
+}
+
+footer {
+
+ text-align: center;
+ background-color: black;
+ color: aquamarine;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: bold;
+ margin-top: 35px;
+
+}
+
+a:link, a:visited {
+
+ background-color: black;
+ color: aquamarine;
+ padding: 7px 12px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ 
+}

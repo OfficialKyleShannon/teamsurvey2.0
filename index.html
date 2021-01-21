@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+  <html lang="en">
+ 
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Gauge Your Team</title>
+    </head>
+
+    <body>
+
+      <header id="header"><h1>Tired of <em>losing</em> your best performers? 
+      We've got <em>you</em> covered.</h1></header><hr>
+
+      <div id="intro">
+   
+        <p>Even though it's a new year - employee churn will still exist.</p>
+
+        <p>With a couple quick questions, we'll be able to see current issues within your team and
+      provide you with action steps to improve.</p>
+
+        <p> Let's answer some brief questions to get a pulse on where your team's health is (see 👇🏻 for survey questions!)</p>
+
+        <p>** <em>NOTE</em> ** - This check should be done on a bi-weekly basis to ensure your team stays at their fullest potential 📈</p><hr>
+
+      </div>
+
+      <!-- Personal Info -->
+
+      <div id="info">
+
+        <h2 class="styledeets"><em>Personal Details</em></h2>
+
+        <label for="firstName">First Name: </label><br>
+        <input type="text" id="firstName"><br>
+        
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName"><br>
+
+        <label for="supervisor">Supervisor's Name: </label><br>
+        <input type="text" id="supervisor"><br><br><hr>
+
+      </div>
+
+      <!-- Survey Questions -->
+
+      <div id="survey">
+
+        <h2 class="stylequestions"><em>Please answer the following:</em></h2>
+
+        <label id="scale" for="meetings">On a scale of 1-10, rate your productivity of team meetings:</label>
+
+        <select name="meetings" id="meetings">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select><br>
+
+        <!-- Standards across the team -->
+
+        <p id="standards">Are standards held the same across the team?</p>
+
+        <label for="answerYes">Yes!</label>
+        <input type="radio" name="answer" value="Yes" checked/><br>
+        
+
+        <label for="answerNo">No?</label>
+        <input type="radio" id="No" name="answer" value="No"/><br>
+
+        <!-- Personal Goals vs Org Goals -->
+
+        <p>Do team members put the good of the group ahead of their personal goals?</p>
+
+        <label for="improv">Some teammates are self-centered.</label>
+        <input type="radio" name="goals" value="self-centered"/><br>
+        
+
+        <label for="thrive">My teammates enable one another to thrive!</label>
+        <input type="radio" name="goals" value="thrive"/><br>
+
+        <br><label for="performance">How would you desscribe your personal performance level?</label>
+
+        <select name="performance" id="performance">
+          <option value="bored">Bored 🥱</option>
+          <option value="engaged">Engaged 🤔</option>
+          <option value="optimum">Optimum 🚀</option>
+          <option value="burned">Burned Out 🤬</option>
+        </select><br><br><hr>
+
+      </div>
+
+      <div id="feedback">
+
+      <h2><em>How can we improve?</em></h2>
+
+      <textarea id="textback" name="feedback" cols="70" rows="10">Please let us know what we can do to improve this organization 😁</textarea><br><br>
+
+      <button type="submit">Submit!</button>
+
+      </div>
+
+      <footer> &copy; Kyle Shannon | 2021 | <a href="https://www.linkedin.com/in/k-shannon/">Let's connect!</a> | <a href="https://github.com/OfficialKyleShannon">Follow more projects!</a>
+
+      </footer>
+      
+    </body>
+
+</html>

@@ -18,21 +18,34 @@ body {
  text-align: center;
  font-family: Helvetica, Arial, sans-serif;
  font-weight: 500;
+ border: 5px solid black;
+ border-radius: 25px;
+ height: 12em;
+ width: 51em;
+ margin-left: auto;
+ margin-right: auto;
 
 }
 
 .styledeets {
 
  text-decoration: underline;
+ 
 
 }
 
 #info {
 
+ border: 5px solid black;
+ border-radius: 25px;
+ height: 14em;
+ width: 25em;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 10px;
  text-align: center;
  font-family: Helvetica, Arial, sans-serif;
  font-weight: bold;
- display: block;
 
 }
 
@@ -40,6 +53,13 @@ body {
 
  text-align: center;
  font-family: Helvetica, Arial, sans-serif;
+ border: 5px solid black;
+ border-radius: 25px;
+ height: 20em;
+ width: 35em;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 10px;
  
 }
 
@@ -54,6 +74,13 @@ body {
  text-align: center;
  font-family: Helvetica, Arial, sans-serif;
  text-decoration: underline;
+ border: 5px solid black;
+ border-radius: 25px;
+ height: 20em;
+ width: 35em;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 10px;
 
 }
 
@@ -94,13 +121,13 @@ footer {
  color: aquamarine;
  font-family: Georgia, 'Times New Roman', Times, serif;
  font-weight: bold;
- margin-top: 35px;
+ margin-top: 25px;
 
 }
 
 a:link, a:visited {
 
- background-color: black;
+ background-color: transparent;
  color: aquamarine;
  padding: 7px 12px;
  text-align: center;
@@ -108,3 +135,4 @@ a:link, a:visited {
  display: inline-block;
  
 }
+
